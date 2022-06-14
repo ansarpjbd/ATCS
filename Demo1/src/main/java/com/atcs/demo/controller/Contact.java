@@ -1,4 +1,4 @@
-package com.atcs.demo;
+package com.atcs.demo.controller;
 
 import java.io.IOException;
 

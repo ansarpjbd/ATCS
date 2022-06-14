@@ -1,6 +1,8 @@
-package com.atcs.demo;
+package com.atcs.demo.controller;
 
 import java.io.IOException;
+
+import com.atcs.demo.model.Employee;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
@@ -20,17 +22,16 @@ public class Home extends HttpServlet {
 		
 		String name=request.getParameter("name");
 		String age=request.getParameter("age");
-		
-		System.out.println("name "+name);
-		System.out.println("age "+age);
-	
+	 
+		Employee e=new Employee();
+		e.setId(1);
+		e.setName(name);
+		e.setSalary(Integer.parseInt(age));
 		
 		//use to navigate to new page 
 		
-		RequestDispatcher rd=request.getRequestDispatcher("/Home.jsp");
-		request.setAttribute("key1", name);
-		request.setAttribute("key2", age);
-		
+		RequestDispatcher rd=request.getRequestDispatcher("view/Home.jsp");
+		request.setAttribute("employee", e);
 		rd.forward(request, response);
 		
 		

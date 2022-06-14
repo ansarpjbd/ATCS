@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+<%@ page import="com.atcs.demo.model.Employee" %>    
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,9 +15,11 @@
 
 <% 
 
-Object name=request.getAttribute("key1");
+Employee name=(Employee)request.getAttribute("employee");
 
-  out.println((String)name);
+  out.println((name.getId()));
+  out.println((name.getName()));
+  out.println((name.getSalary()));
 %>
 
 <%=request.getAttribute("key2") %>
