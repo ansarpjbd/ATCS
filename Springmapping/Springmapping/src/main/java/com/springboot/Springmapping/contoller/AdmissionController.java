@@ -1,39 +1,32 @@
 package com.springboot.Springmapping.contoller;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.springboot.Springmapping.entity.Student;
-import com.springboot.Springmapping.repositary.StudentRepo;
+import com.springboot.Springmapping.entity.Admission;
+
+import com.springboot.Springmapping.repositary.AdmissionRepo;
 
 @RestController
-@RequestMapping("/student")
-public class StudentController {
+@RequestMapping("/admission")
+public class AdmissionController {
 
 	@Autowired
-	StudentRepo repo;
+	AdmissionRepo repo;
 
 	@GetMapping("/")
-	public List<Student> getData() {
+	public List<Admission> getData() {
 		return repo.findAll();
 	}
 
 	@PostMapping("/")
-	public void saveData(@RequestBody Student obj) {
-		repo.save(obj);
-	}
-	
-	
-	@PutMapping("/")
-	public void updateData(@RequestBody Student obj) {
+	public void saveData(@RequestBody Admission obj) {
 		repo.save(obj);
 	}
 
