@@ -40,27 +40,17 @@ public class AddressController {
 	public void deleteData(@PathVariable int id) {
 
 		// list of all the student
-		List<Student> studentList = studentRepo.findAll();
-
-		// iterating the student one by one
-		for (Student stu : studentList) {
-			// getting the list of address
-			List<Address> addressList = stu.getAddresses();
-			List<Address> addressListNew=new ArrayList<Address>();
-			for (Address ad : addressList) {
-               if(ad.getId()==id)
-               {
-            	  
-               }
-               else
-               {
-            	   addressListNew.add(ad);  
-               }
-			}
-			
-			stu.setAddresses(addressListNew);
-			studentRepo.save(stu);
-		}
+		/*
+		 * List<Student> studentList = studentRepo.findAll();
+		 * 
+		 * // iterating the student one by one for (Student stu : studentList) { //
+		 * getting the list of address List<Address> addressList = stu.getAddresses();
+		 * List<Address> addressListNew=new ArrayList<Address>(); for (Address ad :
+		 * addressList) { if(ad.getId()==id) { // addressListNew.add(ad); } else {
+		 * addressListNew.add(ad); } }
+		 * 
+		 * stu.setAddresses(addressListNew); studentRepo.save(stu); }
+		 */
 
 		repo.deleteById(id);
 	}

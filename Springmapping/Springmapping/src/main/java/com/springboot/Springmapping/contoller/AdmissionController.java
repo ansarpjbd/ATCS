@@ -38,6 +38,7 @@ public class AdmissionController {
 	public ResponseEntity<String> saveData(@RequestBody Admission obj) {
 
 		if (obj.getFees() < 1000) {
+			//http response back
 			return new ResponseEntity("Error creating resource", HttpStatus.BAD_REQUEST);
 
 		} else {

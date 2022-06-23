@@ -2,8 +2,10 @@ package com.springboot.Springmapping.entity;
 
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -11,6 +13,8 @@ import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 @Entity
 @Table(name = "student")
@@ -54,6 +58,7 @@ public class Student {
 		this.admission = admission;
 	}
 
+	@JsonManagedReference
 	public List<Address> getAddresses() {
 		return addresses;
 	}
@@ -80,7 +85,8 @@ public class Student {
 	@OneToOne
 	private Admission  admission;
 	
-	@OneToMany
+	//it will help to fetch the data using joins
+    @OneToMany(mappedBy = "student")
 	private List<Address>  addresses;
 	
 	@ManyToMany
