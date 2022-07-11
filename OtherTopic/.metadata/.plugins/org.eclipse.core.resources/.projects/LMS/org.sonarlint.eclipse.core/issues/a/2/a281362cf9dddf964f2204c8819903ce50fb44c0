@@ -1,0 +1,19 @@
+
+b
+java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿHÖRINFOZ
+CODE_SMELL
+l	java:S125"<This block of commented-out lines of code should be removed.(—½ñíüÿÿÿÿH×RMAJORZ
+CODE_SMELL
+l	java:S1255"<This block of commented-out lines of code should be removed.(î°¶˜úÿÿÿÿHØRMAJORZ
+CODE_SMELL
+l	java:S125I"<This block of commented-out lines of code should be removed.(Æ¸¹÷ÿÿÿÿÿHÞRMAJORZ
+CODE_SMELL
+\
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±ÄøÿÿÿÿHßRMINORZ
+CODE_SMELL
+c
+java:S1128
+"8Remove this unused import 'javax.persistence.OneToMany'.(«õù;HáRMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”àÒîûÿÿÿÿHãRMINORZ
+CODE_SMELL

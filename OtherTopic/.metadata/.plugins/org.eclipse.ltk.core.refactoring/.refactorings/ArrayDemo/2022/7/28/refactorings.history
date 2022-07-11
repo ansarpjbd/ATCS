@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.atcs.array.Serialzation.java&apos; to &apos;Emp.java&apos;&#x0D;&#x0A;- Original project: &apos;ArrayDemo&apos;&#x0D;&#x0A;- Original element: &apos;com.atcs.array.Serialzation.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.atcs.array.Emp.java&apos;" description="Rename compilation unit &apos;Serialzation.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.atcs.array{Serialzation.java" name="Emp.java" references="false" stamp="1657287018489" version="1.0"/>
+</session>

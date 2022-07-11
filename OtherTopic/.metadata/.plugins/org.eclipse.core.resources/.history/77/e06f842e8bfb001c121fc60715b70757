@@ -1,0 +1,85 @@
+package com.atcs.entity;
+
+import java.util.List;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+import javax.persistence.Table;
+
+
+@Entity
+@Table(name="student")
+public class Student {
+
+	public Student() {
+		
+	}
+
+
+
+
+
+	@Override
+	public String toString() {
+		return "Student [teachers=" + teachers + ", rollno=" + rollno + ", name=" + name + "]";
+	}
+
+
+	public List<Teacher> getTeachers() {
+		return teachers;
+	}
+
+
+	public void setTeachers(List<Teacher> teachers) {
+		this.teachers = teachers;
+	}
+
+
+	public int getRollno() {
+		return rollno;
+	}
+
+
+	public void setRollno(int rollno) {
+		this.rollno = rollno;
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	 @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.PERSIST)
+	List<Teacher> teachers;
+	
+	public Student(List<Teacher> teachers, int rollno, String name) {
+		super();
+		this.teachers = teachers;
+		this.rollno = rollno;
+		this.name = name;
+	}
+
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	int rollno;
+	
+	
+	@Column
+	String name;
+
+
+	
+}

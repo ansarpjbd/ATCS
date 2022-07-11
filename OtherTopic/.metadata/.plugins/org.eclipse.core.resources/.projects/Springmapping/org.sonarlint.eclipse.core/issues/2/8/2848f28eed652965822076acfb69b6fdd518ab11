@@ -1,0 +1,9 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(àšÇšúÿÿÿÿH˜RMINORZ
+CODE_SMELL
+t
+java:S1128"HRemove this unused import 'com.springboot.Springmapping.entity.Student'.(ùò›ôH–RMINORZ
+CODE_SMELL
+€
+java:S1128"HRemove this unused import 'com.springboot.Springmapping.entity.Address'.(…™ßÔûÿÿÿÿ8äëÉ­˜0HœRMINORZ
+CODE_SMELL

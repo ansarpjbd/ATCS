@@ -1,0 +1,27 @@
+
+k	java:S106""9Replace this use of System.out or System.err by a logger.(ΚτΓ¦8”Ψιο0HRMAJORZ
+CODE_SMELL
+•
+java:S40871"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ήΌ€Σ8§προ0HRMINORZ
+CODE_SMELL
+
+java:S40870"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(έϊεωÿÿÿÿ8§προ0H›RMINORZ
+CODE_SMELL
+k	java:S106."9Replace this use of System.out or System.err by a logger.(£Ωώ”8”Ψιο0H’RMAJORZ
+CODE_SMELL
+v
+java:S2674,"JCheck the return value of the "read" call to see how many bytes were read.(ρεώ—8”Ψιο0HRMINORZBUG
+b
+java:S1197 "*Move the array designators [] to the type.(…ΤώΚύÿÿÿÿ8”Ψιο0HRMINORZ
+CODE_SMELL
+p	java:S106/"9Replace this use of System.out or System.err by a logger.(ϋΰΒυόÿÿÿÿ8”Ψιο0H‘RMAJORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(µξ³8§προ0HRMAJORZ
+CODE_SMELL
+j	java:S106#"9Replace this use of System.out or System.err by a logger.(‚‰18”Ψιο0HRMAJORZ
+CODE_SMELL
+b
+java:S1197	"*Move the array designators [] to the type.(΅ώΟΦψÿÿÿÿ8”Ψιο0H‹RMINORZ
+CODE_SMELL
+p	java:S1063"9Replace this use of System.out or System.err by a logger.(Ϊ§ΘΦϊÿÿÿÿ8”Ψιο0HRMAJORZ
+CODE_SMELL

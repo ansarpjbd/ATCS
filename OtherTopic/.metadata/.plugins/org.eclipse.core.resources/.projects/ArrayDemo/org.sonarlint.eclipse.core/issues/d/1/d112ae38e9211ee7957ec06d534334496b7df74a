@@ -1,0 +1,23 @@
+
+b
+java:S1854"6Remove this useless assignment to local variable "aa".(¬İĞHùRMAJORZ
+CODE_SMELL
+c
+java:S1854	"7Remove this useless assignment to local variable "str".(ÏÕõµHúRMAJORZ
+CODE_SMELL
+p
+java:S4143"FVerify this is the index that was intended; it was already set before.(Ç•¯şÿÿÿÿHûRMAJORZBUG
+[
+java:S1197"*Move the array designators [] to the type.(ºËüúÿÿÿÿHıRMINORZ
+CODE_SMELL
+V
+java:S1197	"*Move the array designators [] to the type.(ÏÕõµH€RMINORZ
+CODE_SMELL
+T
+java:S1481	"(Remove this unused "str" local variable.(ÏÕõµHƒRMINORZ
+CODE_SMELL
+S
+java:S1481"'Remove this unused "aa" local variable.(¬İĞH…RMINORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(„ÖÎ©H‡RMAJORZ
+CODE_SMELL

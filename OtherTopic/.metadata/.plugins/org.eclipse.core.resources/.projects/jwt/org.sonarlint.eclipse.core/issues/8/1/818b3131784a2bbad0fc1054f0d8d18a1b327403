@@ -1,0 +1,26 @@
+
+n	java:S125m"<This block of commented-out lines of code should be removed.(Ò≤˙¸8‚ù˚Ëú0HëRMAJORZ
+CODE_SMELL
+V
+java:S5411a"*Use the primitive boolean expression here.(åâ”åHˆRMINORZ
+CODE_SMELL
+Ü
+java:S2293ú"YReplace the type specification in this constructor call with the diamond operator ("<>").(ù≤ﬁöH˘RMINORZ
+CODE_SMELL
+U
+java:S1452="&Remove usage of generic wildcard type.(ó≠ËÄHÍRCRITICALZ
+CODE_SMELL
+w
+java:S1612I"KReplace this lambda with method reference 'GrantedAuthority::getAuthority'.(°©ÈΩHÎRMINORZ
+CODE_SMELL
+s	java:S125^"<This block of commented-out lines of code should be removed.(‰ÖÛ—˝ˇˇˇˇ8ÌÃÉÈú0HûRMAJORZ
+CODE_SMELL
+é
+java:S1192u"ZDefine a constant instead of duplicating this literal "Error: Role is not found." 4 times.(…ˇ ñ˘ˇˇˇˇHÌRCRITICALZ
+CODE_SMELL
+V
+java:S5411W"*Use the primitive boolean expression here.(á÷Ö≤HÛRMINORZ
+CODE_SMELL
+Z
+java:S1452T"&Remove usage of generic wildcard type.(È„∞È˙ˇˇˇˇHÚRCRITICALZ
+CODE_SMELL

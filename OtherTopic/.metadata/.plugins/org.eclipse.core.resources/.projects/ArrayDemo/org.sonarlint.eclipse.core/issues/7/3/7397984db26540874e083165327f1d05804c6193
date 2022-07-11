@@ -1,0 +1,32 @@
+
+ˆ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(âúÓýHÅRCRITICALZ
+CODE_SMELL
+d	java:S106D"9Replace this use of System.out or System.err by a logger.(ÑÝöÎH×RMAJORZ
+CODE_SMELL
+d	java:S106+"9Replace this use of System.out or System.err by a logger.(ÜÃÿÌHøRMAJORZ
+CODE_SMELL
+l	java:S125G"<This block of commented-out lines of code should be removed.(Ñ“ºƒüÿÿÿÿHÕRMAJORZ
+CODE_SMELL
+c	java:S106"9Replace this use of System.out or System.err by a logger.(¤êÙ HÔRMAJORZ
+CODE_SMELL
+`
+java:S1068"4Remove this unused "serialversionUID" private field.(âúÓýHØRMAJORZ
+CODE_SMELL
+s	java:S125/"<This block of commented-out lines of code should be removed.(ÀÉ¥…úÿÿÿÿ8¶½šð0HõRMAJORZ
+CODE_SMELL
+i	java:S106K"9Replace this use of System.out or System.err by a logger.(—êíòúÿÿÿÿHúRMAJORZ
+CODE_SMELL
+w
+java:S2095#"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(ºýõHÚRBLOCKERZBUG
+t
+java:S2095""NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(è§ÍoHÝRBLOCKERZBUG
+t
+java:S2095<"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ÖÞÎHÜRBLOCKERZBUG
+d	java:S106O"9Replace this use of System.out or System.err by a logger.(ŠÏé‚HÍRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(Ë¨ÿÜýÿÿÿÿHËRMAJORZ
+CODE_SMELL
+i	java:S1063"9Replace this use of System.out or System.err by a logger.(—êíòúÿÿÿÿHÐRMAJORZ
+CODE_SMELL
+v
+java:S2095="OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(ôà¤ÒHÛRBLOCKERZBUG

@@ -1,0 +1,17 @@
+
+}
+java:S1128"ERemove this unused import 'com.atcs.springbootjpa.repo.EmployeeRepo'.(ç•¼úÿÿÿÿ8ìºï£˜0H‰RMINORZ
+CODE_SMELL
+g
+java:S3740+"/Provide the parametrized type for this generic.(ßš øÿÿÿÿ8ÊÎï£˜0H‹RMAJORZ
+CODE_SMELL
+w
+java:S1128"?Remove this unused import 'com.atcs.springbootjpa.entity.Dept'.(Î³Üßÿÿÿÿÿ8ìºï£˜0HŒRMINORZ
+CODE_SMELL
+x
+java:S46840"@Replace this persistent entity with a simple POJO or DTO object.(ÄµÄl8ÊÎï£˜0HRCRITICALZVULNERABILITY
+t
+java:S1128"ARemove this unused import 'com.atcs.springbootjpa.repo.DeptRepo'.(Ü‘Ôü8ìºï£˜0HRMINORZ
+CODE_SMELL
+p
+java:S2583("DChange this condition so that it does not always evaluate to "false"(šÀ›÷8ìºï£˜0H‘RMAJORZBUG

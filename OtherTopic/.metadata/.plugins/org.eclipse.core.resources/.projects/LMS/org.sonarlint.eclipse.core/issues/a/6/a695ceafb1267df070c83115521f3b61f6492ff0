@@ -1,0 +1,21 @@
+
+w
+java:S46845"@Replace this persistent entity with a simple POJO or DTO object.(»ğ††øÿÿÿÿHÇRCRITICALZVULNERABILITY
+i
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿHÉRMINORZ
+CODE_SMELL
+Š
+java:S2293+"YReplace the type specification in this constructor call with the diamond operator ("<>").(ìÀ®êşÿÿÿÿHÏRMINORZ
+CODE_SMELL
+j
+java:S1128">Remove this unused import 'com.example.Final.LMS.entity.User'.(‘·ŸæHËRMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(şœƒêÿÿÿÿÿHÑRMINORZ
+CODE_SMELL
+w
+java:S1128"FRemove this unused import 'com.example.Final.LMS.repositary.UserRepo'.(ÑìÚŸşÿÿÿÿHÍRMINORZ
+CODE_SMELL
+d	java:S1069"9Replace this use of System.out or System.err by a logger.(ÁªøHÈRMAJORZ
+CODE_SMELL
+l	java:S125*"<This block of commented-out lines of code should be removed.(š·âÅûÿÿÿÿHÆRMAJORZ
+CODE_SMELL

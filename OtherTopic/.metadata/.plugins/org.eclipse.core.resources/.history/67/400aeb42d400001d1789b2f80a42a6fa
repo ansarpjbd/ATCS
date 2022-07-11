@@ -1,0 +1,30 @@
+package com.atcs.array;
+
+class Employee
+{
+	String name;
+	int id;
+	double salary;
+	
+	public Employee(int id,String name, double salary)
+	{
+		this.name=name;
+		this.id=id;
+		this.salary=salary;	
+	}
+	
+	
+	
+}
+
+
+
+public class MyGeneric {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,8 @@
+
+r
+java:S4684""@Replace this persistent entity with a simple POJO or DTO object.(ξω«ΩHΑRCRITICALZVULNERABILITY
+…
+java:S4144)"TUpdate this method so that its implementation is not identical to "post" on line 34.(Σ‰ΈϋÿÿÿÿHΒRMAJORZ
+CODE_SMELL
+w
+java:S4684)"@Replace this persistent entity with a simple POJO or DTO object.(Σ‰ΈϋÿÿÿÿHΔRCRITICALZVULNERABILITY

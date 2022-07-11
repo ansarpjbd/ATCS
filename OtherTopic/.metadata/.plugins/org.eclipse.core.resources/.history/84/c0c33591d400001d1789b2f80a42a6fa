@@ -1,0 +1,34 @@
+package com.atcs.array;
+
+class Employee
+{
+	String name;
+	int id;
+	double salary;
+	
+	public Employee(int id,String name, double salary)
+	{
+		this.name=name;
+		this.id=id;
+		this.salary=salary;	
+	}
+	
+	
+	
+}
+
+
+
+public class MyGeneric {
+
+	public static void main(String[] args) {
+		
+	  //without generic concept
+		//we need to fix the database type with the paramters
+		
+      Employee e1=new Employee(1001, "ravinder", 10000);
+      
+		
+		
+	}
+}

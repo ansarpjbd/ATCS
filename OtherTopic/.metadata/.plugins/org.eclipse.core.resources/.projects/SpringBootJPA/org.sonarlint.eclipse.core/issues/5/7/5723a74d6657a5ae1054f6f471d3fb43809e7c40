@@ -1,0 +1,10 @@
+
+p
+java:S1128"?Remove this unused import 'com.atcs.springbootjpa.entity.Dept'.(Î³ÜßÿÿÿÿÿH“RMINORZ
+CODE_SMELL
+c
+java:S1128"7Remove this unused import 'javax.persistence.OneToOne'.(Ø½ïâH—RMINORZ
+CODE_SMELL
+`
+java:S1128"5Remove this unused import 'javax.persistence.Column'.(ìûæHH•RMINORZ
+CODE_SMELL

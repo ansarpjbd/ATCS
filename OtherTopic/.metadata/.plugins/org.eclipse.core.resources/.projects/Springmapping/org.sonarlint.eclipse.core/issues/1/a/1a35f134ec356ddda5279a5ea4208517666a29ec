@@ -1,0 +1,10 @@
+
+~
+java:S4684 "@Replace this persistent entity with a simple POJO or DTO object.(¢Ş“Éûÿÿÿÿ8¿¿Ÿ®˜0HªRCRITICALZVULNERABILITY
+x
+java:S4684&"@Replace this persistent entity with a simple POJO or DTO object.(…È8‘¯Á­˜0H«RCRITICALZVULNERABILITY
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ú¢‚ÛH¬RMINORZ
+CODE_SMELL
+c
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8³®•Î˜0H­RMINORZ
+CODE_SMELL

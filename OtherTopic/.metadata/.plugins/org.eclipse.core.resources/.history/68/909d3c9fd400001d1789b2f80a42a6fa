@@ -1,0 +1,40 @@
+package com.atcs.array;
+
+//Change the normal to Generic Type
+//Add the generic paramters to class name
+//it will be always in captial case
+//add the type to variable
+class Employee<X,Y,Z>
+{
+	X name;
+	Y id;
+	Z salary;
+	
+	public Employee(int id,String name, double salary)
+	{
+		this.name=name;
+		this.id=id;
+		this.salary=salary;	
+	}
+	
+	
+	
+}
+
+
+
+public class MyGeneric {
+
+	public static void main(String[] args) {
+		
+	  //without generic concept
+		//we need to fix the database type with the paramters
+		
+      Employee e1=new Employee(1001, "ravinder", 10000);
+      
+      Employee e2=new Employee("1001", "ravinder", 10000);
+      	
+      Employee e3=new Employee("1001", "ravinder", "10000");
+      	
+	}
+}
